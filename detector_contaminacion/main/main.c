@@ -8,7 +8,7 @@
 #include "spi_sensors.h"
 #include "wifi_conect.h"
 
-#define TASK_FREQUENCY 2000 // Frecuencia de la tarea en milisegundos (1 segundo)
+#define TASK_FREQUENCY 2000 // Frecuencia de la tarea en milisegundos (2 segundos)
 #define MED_SOUND 500       // Mediciones de sonido durante TASK_FREQUENCY para obtener la máxima
 
 void init_wifi(void);                                       // Para inicializar Wi-Fi y gestionar la configuración de conexión
